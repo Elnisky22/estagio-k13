@@ -16,46 +16,62 @@
     <body class="d-flex flex-column h-100">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-                <a class="navbar-brand" href="#"><img src="public/images/logo.png"></a>
-
                 <!-- Dropdown button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="float-left">
+                    <span>(42) 3622-9421</span>
+                </div>
+                <div class="float-right">
+                    <a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> Ajuda</a>
+                    <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Cadastro</a>
+                    <a href="#"><i class="fa fa-sign-in-alt" aria-hidden="true"></i> Entrar</a>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 45px 15px 0px;">
+                <ul class="navbar-nav mr-auto visible-xs">
+                    <li class="navbar-item active">
+                        <a class="navbar-brand" href="#"><img src="public/images/logo.png"></a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" aria-hidden="true"><i class="fa fa-shopping-cart"></i><span class="badge">0</span></a>
+                    </li>
+                </ul>
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    <ul class="nav navbar-nav hidden-sm hidden-xs">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" title="PC Gamer">PC Gamer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Ação</a>
-                                <a class="dropdown-item" href="#">Outra ação</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Algo mais aqui</a>
-                            </div>
+                            <a href="#" class="nav-link" title="Mouse">Mouse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Desativado</a>
+                            <a href="#" class="nav-link" title="Placas de Vídeo">Placas de Vídeo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" title="Servidores">Servidores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" title="Monitores">Monitores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" title="Teclados">Teclados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" title="Blog">Blog</a>
                         </li>
                     </ul>
-                    <div class="pull-right">
-                        <a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>Ajuda</a>
-                        <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>Cadastro</a>
-                        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i></i>Entrar</a>
-                    </div>
-
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-                    </form>
+                    
                 </div>
             </nav>
         </header>
@@ -63,12 +79,66 @@
         <main role="main" class="flex-shrink-0">
             <div class="container">
                 <h1>Olá, mundo!</h1>
+                <br>asd
+                <br>asd
+                <br>asdasd
+                <br>asdasdasd
+                <br>asdasdasd<br><br><br>asdasd<br><br>asd
+                
+                <br>asdasd
+                <br>asdasdasd
+                <br>asdasdasd<br><br><br>asdasd<br><br>asd
+                <br>asdasd
+                <br>asdasdasd
+                <br>asdasdasd<br><br><br>asdasd<br><br>asd
             </div>
 
         </main>
         
     
         <footer class="footer mt-auto py-3">
+            <div class="container" style="background-color: blue; color: white">
+                <p>Assine nossa newsletter para receber novidades!</p>
+                <form action="#" method="POST">
+                    <div>
+                        <input type="email" id="newsletter" name="email" placeholder="E-mail" required="required">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <button type="submit" class="btn">ASSINAR</button>
+                </form>
+            </div>
+            
+            <section class="menu-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="itens">
+                            <div class="item col-md-20 col-sm-20 col-xs-20">
+                                <ul class="list-unstyled">
+                                    <li><p><b>PRODUTOS</b></p></li>
+                                    <li><a href="#" title="PC Gamer">PC Gamer</a></li>
+                                    <li><a href="#" title="Mouse">Mouse</a></li>
+                                    <li><a href="#" title="Placas de Vídeo">Placas de Vídeo</a></li>
+                                    <li><a href="#" title="Servidores">Servidores</a></li>
+                                    <li><a href="#" title="Monitores">Monitores</a></li>
+                                    <li><a href="#" title="Teclados">Teclados</a></li>
+                                </ul>
+                            </div>
+                            <div class="item col-md-20 col-sm-20 col-xs-20">
+                                <ul class="list-unstyled">
+                                    <li><p><b>AJUDA E SUPORTE</b></p></li>
+                                    <li><a href="#">Quem Somos</a></li>
+                                    <li><a href="#">Fale Conosco</a></li>
+                                    <li><a href="#">Política de Trocas e Devoluções</a></li>
+                                    <li><a href="#">Meus Pedidos</a></li>
+                                    <li><a href="#">Meu Carrinho</a></li>
+                                    <li><a href="#">Formas de Pagamento</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="itens-footer">
                 <div class="container">
                     <div class="row">
@@ -81,13 +151,16 @@
                                 <p>Guarapuava - Paraná</p>
                             </div>
                             <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12">
-                                <ul>
+                                <ul class="list-unstyled">
                                     <li><a href="https://www.facebook.com/agenciak13/" target="_blank"><i class="icons-sociais sprite-icon-facebook"></i></a></li>
                                     <li><a href="https://www.instagram.com/agenciak13/" target="_blank"><i class="icons-sociais sprite-icon-instagram"></i></a></li>
                                     <li><a href="https://api.whatsapp.com/send?phone=5542991003779" target="_blank"><i class="icons-sociais sprite-icon-whatsapp"></i></a></li>
                                 </ul>
                             </div>
                         </div>
+                </div>
+                <div class="container">
+                    <p>Todos os direitos reservados <span>|</span> <span><a href="https://k13.com.br/" target="_blank"><img src="public/images/logo-white.png" alt="K13 - Agência Web"/></a></span></p>
                 </div>
             </section>
         </footer>
