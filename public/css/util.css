@@ -1,24 +1,64 @@
-main > .container {
-    padding: 10px 15px 0;
+/* tag */
+a {
+    color: grey;
+}
+a:hover {
+    color: black;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: grey;
 }
 
 footer {
     background-color: #f5f5f5;
 }
-
-footer > .container {
-    /*padding-right: 15px;
-    padding-left: 15px;*/
+footer a {
+    color: #ffffff;
 }
 
-body {
-    color: grey;
+main > .container {
+    padding: 10px 15px 0;
 }
 
-a {
-    color: grey;
+/* class */
+.banners .col {
+    margin: 0px;
+    padding: 0px;
 }
 
-a:hover {
-    color: black;
+.destaques {
+    background-image: url("../images/bg-slider-destaque.jpg");
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+.destaques b {
+    color: #ffffff;
+}
+.destaques p {
+    color: #000000;
+    font-size: 24px;
+}
+
+.direitos {
+    background-color: #7b7b7b;
+}
+.direitos img {
+    height: 15px;
+}
+
+.itens-footer {
+    background-color: #9b9b9b;
+    color: #ffffff;
+}
+
+.newsletter {
+    background-color: blue;
+    color: white;
+}
+
+.menu-footer {
+    background-color: #b4b4b4;
+    color: #ffffff;
 }
