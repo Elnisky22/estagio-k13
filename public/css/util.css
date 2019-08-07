@@ -23,11 +23,29 @@ main > .container {
 }
 
 /* class */
+.a-overlay {
+    width: 150px;
+    height: 35px;
+}
+.a-overlay:hover > i {
+    display: block;
+}
+.a-overlay:hover > span {
+    display: none;
+}
+.a-overlay > i {
+    display: none;
+}
+
 .banners .col {
     margin: 0px;
     padding: 0px;
 }
 
+.card-image {
+    width: 100px;
+    height: 100px;
+}
 
 .destaques {
     background-image: url("../images/bg-slider-destaque.jpg");
