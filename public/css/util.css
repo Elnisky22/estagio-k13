@@ -32,6 +32,7 @@ main > .container {
     background-image: url("../images/bg-slider-destaque.jpg");
     margin: 10px 0px 0px 0px;
     padding: 0px;
+    padding-bottom: 10px;
 }
 #destaques b {
     color: #ffffff;
@@ -60,15 +61,26 @@ main > .container {
     display: none;
 }
 
-.card {
+.card-destaque {
+    height: 200px;
+    margin: auto;
+    margin-left: 20%;
+    max-width: 350px;
+}
+.card-header-destaque {
+    border-bottom: none;
+    border-right: 1px solid rgba(0,0,0,.125);
+    height: 200px;
+}
+
+.card-produto {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
     max-width: 200px;
     text-align: center;
 }
-.card-image {
-    margin: auto;
-    width: 100px;
-    height: 100px;
+.card-header-produto {
+    height: 150px;
 }
 
 .direitos {

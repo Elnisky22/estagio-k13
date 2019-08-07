@@ -2,7 +2,6 @@ jQuery(function(){
     $('.produtos').slick({
         dots: false,
         infinite: false,
-        speed: 300,
         slidesToShow: 4,
         slidesToScroll: 4,
         responsive: 
@@ -17,7 +16,7 @@ jQuery(function(){
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
@@ -34,6 +33,28 @@ jQuery(function(){
     });
 });
 
+jQuery(function(){
+    $('.destaques').slick({
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: 
+        [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+});
+
 jQuery(function() {
     $('.produtos').show();
+    $('.destaques').show();
 });
