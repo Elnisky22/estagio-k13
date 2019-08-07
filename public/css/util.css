@@ -22,6 +22,29 @@ main > .container {
     padding: 10px 15px 0;
 }
 
+/* id */
+#banners .col {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#destaques {
+    background-image: url("../images/bg-slider-destaque.jpg");
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#destaques b {
+    color: #ffffff;
+}
+#destaques p {
+    color: #000000;
+    font-size: 24px;
+}
+
+#navbar {
+    padding: 45px 15px 0px;
+}
+
 /* class */
 .a-overlay {
     width: 150px;
@@ -37,11 +60,6 @@ main > .container {
     display: none;
 }
 
-.banners .col {
-    margin: 0px;
-    padding: 0px;
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 200px;
@@ -51,19 +69,6 @@ main > .container {
     margin: auto;
     width: 100px;
     height: 100px;
-}
-
-.destaques {
-    background-image: url("../images/bg-slider-destaque.jpg");
-    margin: 10px 0px 0px 0px;
-    padding: 0px;
-}
-.destaques b {
-    color: #ffffff;
-}
-.destaques p {
-    color: #000000;
-    font-size: 24px;
 }
 
 .direitos {
